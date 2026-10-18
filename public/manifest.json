@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "browser Studio 1018",
+  "version": "1.0.0",
+  "description": "Turn scattered browser tabs into focused, shareable research briefs.",
+  "action": { "default_title": "Open browser Studio 1018" },
+  "permissions": ["tabs", "storage"],
+  "chrome_url_overrides": { "newtab": "index.html" }
+}
